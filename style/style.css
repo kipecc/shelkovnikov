@@ -1,0 +1,94 @@
+* {
+                padding: 0;
+                margin: 0;
+            }
+
+            @media (min-width: 768px) {
+                .indent {
+                    display: flex;
+                }
+            }
+
+            div{
+                margin: 10px 0px 10px 0px;
+                text-align: center;
+                
+                
+            }
+            
+            body {
+                font-family: Arial, sans-serif;
+                font-size:xx-large;
+            }
+
+            .header {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+                height: 3%;
+                
+            }
+            .left{
+                text-align: left;
+                        }
+    
+            .main {
+                max-width: 100%;
+                margin: 50px 2% 10px 2%;
+                background: #f1f1f1;
+                border-radius: 15px;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+                padding: 30px;
+            }
+
+            h1 {
+                color: #4CAF50;
+                font-size: 50px;
+            }
+
+            p {
+                margin-bottom: 20px;
+                line-height: 28px;
+            }
+
+            button[name="run_script"] { 
+                border: none;
+                border-radius: 7px;
+                padding: 10px 25px;
+                background: #ff9900;
+                cursor: pointer;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size:xx-large;
+                color: white;
+              }
+              button[name="run_script"]:hover { 
+                background: #ff6600;
+              } 
+
+              .image {
+                border-radius: 10px;
+              }
+
+              footer {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+            }
+
+
+            a.button24 {
+                display: inline-block;
+                color: white;
+                text-decoration: none;
+                padding: .5em 2em;
+                outline: none;
+                border-width: 2px 0;
+                border-style: solid none;
+                border-color: #FDBE33 #000 #D77206;
+                border-radius: 6px;
+                background: linear-gradient(#F3AE0F, #E38916) #E38916;
+                transition: 0.2s;
+              } 
+              a.button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+              a.button24:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
